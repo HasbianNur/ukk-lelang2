@@ -11,7 +11,7 @@
                 <div class="p-6 bg-white border-b border-gray-200">
                     @include('layouts.success-message')
                     <h3 class="mb-4 font-semibold text-lg text-gray-800 leading-tight">You balance:</h3>
-                    <div class="text-green-500 text-5xl my-2">${{ Auth::user()->balance }}</div>
+                    <div class="text-green-500 text-5xl my-2">Rp {{ Auth::user()->balance }}</div>
                     <h3 class="mb-4 font-semibold text-lg text-gray-800 leading-tight">You purchases:</h3>
                     <user-purchases></user-purchases>
                     <a
